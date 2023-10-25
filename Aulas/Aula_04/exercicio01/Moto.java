@@ -1,0 +1,12 @@
+package aula04.exercicio01;
+
+public class Moto extends Veiculo {
+    public Moto(String marca, String modelo, int ano) {
+        super(marca, modelo, ano);
+    }
+
+    @Override
+    public double calcularCustoViagem(double distancia) {
+        return distancia * 0.15;
+    }
+}
